@@ -1,28 +1,23 @@
-body,
-html {
+body, html {
     margin: 0;
     padding: 0;
     font-size: 18px;
 }
 
-
 /*FUNDO DO SITE*/
 
 body {
-    background: #ccc url(https://extranet.denadai.com.br/ProgramaEvoluir/pluginfile.php/4163/course/overviewfiles/hot%20dog.jpg) center top no-repeat;
+    background: #ccc url(https://besthqwallpapers.com/Uploads/9-10-2019/108309/thumb2-mazda-3-tcr-2020-side-view-exterior-tuning-mazda-3-hatchback.jpg) center top no-repeat;
     background-size: 100%;
     background-attachment: fixed;
 }
 
-
 /*DECORAÇÃO DA IMAGEM*/
 
-a,
-a img {
+a, a img {
     text-decoration: none;
     border: none;
 }
-
 
 /*EXTENÇÃO DA FUNDO*/
 
@@ -30,7 +25,6 @@ img {
     max-width: 100%;
     height: auto;
 }
-
 
 /*CABEÇALHO DO SITE*/
 
@@ -41,13 +35,9 @@ img {
     font-family: sans-serif;
 }
 
-
 /*COMEÇO, MEIO E FIMDO SITE*/
 
-.cabecalho,
-.logo,
-.rodape,
-.menu {
+.cabecalho, .logo, .rodape, .menu {
     width: 100%;
     display: block;
     clear: both;
@@ -57,13 +47,11 @@ img {
     height: 100px;
 }
 
-
 /*ALINHAMENTO DA LOGO DO SITE*/
 
 .logo-cabecalho {
     float: left;
 }
-
 
 /*NOME DO SITE*/
 
@@ -76,7 +64,6 @@ img {
     stroke-linecap: butt;
 }
 
-
 /*CAMPO DE PESQUISA*/
 
 .pesquisa {
@@ -86,22 +73,27 @@ img {
 }
 
 /*BARRA E COR DE FUNDO DOS MENUS*/
+
 .menu {
     background: #444;
 }
 
 /*MARGEM ENTRE A BARRA E O CONTEÚDO*/
-.menu ul li,
-.menu ul {
+
+.menu ul li, .menu ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
+
 /*MENUS NA HORIZONTAL*/
+
 .menu ul li {
     display: inline-block;
 }
+
 /*LAYOUT DOS MENUS*/
+
 .menu ul li a {
     display: block;
     color: #fff;
@@ -117,8 +109,7 @@ img {
     float: left;
 }
 
-.artigos,
-.artigos:before {
+.artigos, .artigos:before {
     width: 70%;
 }
 
@@ -138,8 +129,7 @@ img {
     float: right;
 }
 
-.barra-lateral,
-.barra-lateral:before {
+.barra-lateral, .barra-lateral:before {
     width: 30%;
 }
 
@@ -153,13 +143,11 @@ img {
     background: #f1f1f1;
 }
 
-
 /*ESPAÇAMENTOS*/
 
 .espacamento {
     padding: 20px;
 }
-
 
 /*RODAPÉ DO SITE*/
 
