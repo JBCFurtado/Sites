@@ -85,24 +85,23 @@ img {
     margin-right: 10px;
 }
 
-
 /*BARRA E COR DE FUNDO DOS MENUS*/
-
 .menu {
     background: #444;
 }
 
+/*MARGEM ENTRE A BARRA E O CONTEÚDO*/
 .menu ul li,
 .menu ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-
+/*MENUS NA HORIZONTAL*/
 .menu ul li {
     display: inline-block;
 }
-
+/*LAYOUT DOS MENUS*/
 .menu ul li a {
     display: block;
     color: #fff;
@@ -132,7 +131,6 @@ img {
     z-index: -1;
     content: '';
 }
-
 
 /*BARRAS LATERAIS*/
 
@@ -166,7 +164,7 @@ img {
 /*RODAPÉ DO SITE*/
 
 .rodape {
-    padding: 20px;
+    padding: 30px;
     color: #fff;
     text-align: center;
 }
