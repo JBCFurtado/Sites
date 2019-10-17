@@ -7,7 +7,7 @@ body, html {
 /*FUNDO DO SITE*/
 
 body {
-    background: #ccc url(https://besthqwallpapers.com/Uploads/9-10-2019/108309/thumb2-mazda-3-tcr-2020-side-view-exterior-tuning-mazda-3-hatchback.jpg) center top no-repeat;
+    background: #ccc url(https://www.planetcarsz.com/assets/uploads/e15e70956cbb8c8f35d58c93cd0d29cd.jpg)center top no-repeat;
     background-size: 100%;
     background-attachment: fixed;
 }
@@ -64,6 +64,21 @@ img {
     stroke-linecap: butt;
 }
 
+/*SUBTÍTULO DO SITE*/
+.subtítulo a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px 0 0 0;
+    stroke-linecap: butt;
+    margin: 10;
+}
+
+.subtítulo-logo {
+    float: center;
+}
+
 /*CAMPO DE PESQUISA*/
 
 .pesquisa {
@@ -81,7 +96,7 @@ img {
 /*MARGEM ENTRE A BARRA E O CONTEÚDO*/
 
 .menu ul li, .menu ul {
-    margin: 0;
+    margin: 2;
     padding: 0;
     list-style: none;
 }
