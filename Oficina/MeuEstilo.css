@@ -1,10 +1,72 @@
-body, html {
+/*CAMPOS DE TESTE*/
+
+#search-box {
+    position: relative;
+    width: 100%;
     margin: 0;
-    padding: 0;
+}
+
+#search-form {
+    height: 40px;
+    border: 1px solid #999;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+#search-text {
+    font-size: 14px;
+    color: #ddd;
+    border-width: 0;
+    background: transparent;
+}
+
+#search-box input[type="text"] {
+    width: 90%;
+    padding: 11px 0 12px 1em;
+    color: #333;
+    outline: none;
+}
+
+#search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 42px;
+    width: 80px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 42px;
+    border-width: 0;
+    background-color: #4d90fe;
+    /*--define a cor do botão Buscar--*/
+    -webkit-border-radius: 0px 5px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+/*FIM TESTE*/
+
+/*DEFINIÇÃO DE TODO CSS*/
+
+body, html {
+    margin: 10;
+    /*MARGEM DO SITE*/
+    padding: 10;
+    /*PREENCHIMENTO DO SITE*/
     font-size: 18px;
+    /*FONTE GERAL DO SITE*/
 }
 
 /*FUNDO DO SITE*/
+
+/*ABAIXO FOI DEFINIDO O FUNDO DO SITE DE FORMA FIXADO*/
+
+/*FOI DEFINIDO QUE ESSE BACKGROUND OCUPARIA A PÁGINA TODA*/
 
 body {
     background: #ccc url(https://www.planetcarsz.com/assets/uploads/e15e70956cbb8c8f35d58c93cd0d29cd.jpg)center top no-repeat;
@@ -12,18 +74,20 @@ body {
     background-attachment: fixed;
 }
 
-/*DECORAÇÃO DA IMAGEM*/
+/*TRAÇO DE MARCAÇÃO NOS MENUS, NESSA CASO FOI TIRADO*/
 
 a, a img {
-    text-decoration: none;
-    border: none;
+    text-decoration: white;
+    border: black;
 }
 
-/*EXTENÇÃO DA FUNDO*/
+/*EXTENÇÃO DO FUNDO DOS PRINCIPAIS ARTIGOS*/
 
 img {
     max-width: 100%;
+    /*IMAGEM OCUPARÁ 100%*/
     height: auto;
+    /*ALTURA COMPLETA DA IMAGEM*/
 }
 
 /*CABEÇALHO DO SITE*/
@@ -65,6 +129,7 @@ img {
 }
 
 /*SUBTÍTULO DO SITE*/
+
 .subtítulo a {
     font-size: 25px;
     text-decoration: none;
