@@ -1,36 +1,94 @@
-body,
-html {
+/*CAMPOS DE TESTE*/
+
+#search-box {
+    position: relative;
+    width: 100%;
     margin: 0;
-    padding: 0;
-    font-size: 18px;
 }
 
+#search-form {
+    height: 40px;
+    border: 1px solid #999;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+#search-text {
+    font-size: 14px;
+    color: #ddd;
+    border-width: 0;
+    background: transparent;
+}
+
+#search-box input[type="text"] {
+    width: 90%;
+    padding: 11px 0 12px 1em;
+    color: #333;
+    outline: none;
+}
+
+#search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 42px;
+    width: 80px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 42px;
+    border-width: 0;
+    background-color: #4d90fe;
+    /*--define a cor do botão Buscar--*/
+    -webkit-border-radius: 0px 5px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+/*FIM TESTE*/
+
+/*DEFINIÇÃO DE TODO CSS*/
+
+body, html {
+    margin: 10;
+    /*MARGEM DO SITE*/
+    padding: 10;
+    /*PREENCHIMENTO DO SITE*/
+    font-size: 18px;
+    /*FONTE GERAL DO SITE*/
+}
 
 /*FUNDO DO SITE*/
 
+/*ABAIXO FOI DEFINIDO O FUNDO DO SITE DE FORMA FIXADO*/
+
+/*FOI DEFINIDO QUE ESSE BACKGROUND OCUPARIA A PÁGINA TODA*/
+
 body {
-    background: #ccc url(https://extranet.denadai.com.br/ProgramaEvoluir/pluginfile.php/4163/course/overviewfiles/hot%20dog.jpg) center top no-repeat;
+    background: #ccc url(https://extranet.denadai.com.br/ProgramaEvoluir/pluginfile.php/4163/course/overviewfiles/hot%20dog.jpg)center top no-repeat;
     background-size: 100%;
     background-attachment: fixed;
 }
 
+/*TRAÇO DE MARCAÇÃO NOS MENUS, NESSA CASO FOI TIRADO*/
 
-/*DECORAÇÃO DA IMAGEM*/
-
-a,
-a img {
-    text-decoration: none;
-    border: none;
+a, a img {
+    text-decoration: white;
+    border: black;
 }
 
-
-/*EXTENÇÃO DA FUNDO*/
+/*EXTENÇÃO DO FUNDO DOS PRINCIPAIS ARTIGOS*/
 
 img {
     max-width: 100%;
+    /*IMAGEM OCUPARÁ 100%*/
     height: auto;
+    /*ALTURA COMPLETA DA IMAGEM*/
 }
-
 
 /*CABEÇALHO DO SITE*/
 
@@ -41,13 +99,9 @@ img {
     font-family: sans-serif;
 }
 
-
 /*COMEÇO, MEIO E FIMDO SITE*/
 
-.cabecalho,
-.logo,
-.rodape,
-.menu {
+.cabecalho, .logo, .rodape, .menu {
     width: 100%;
     display: block;
     clear: both;
@@ -57,13 +111,11 @@ img {
     height: 100px;
 }
 
-
 /*ALINHAMENTO DA LOGO DO SITE*/
 
 .logo-cabecalho {
     float: left;
 }
-
 
 /*NOME DO SITE*/
 
@@ -76,6 +128,21 @@ img {
     stroke-linecap: butt;
 }
 
+/*SUBTÍTULO DO SITE*/
+
+.subtítulo a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px 0 0 0;
+    stroke-linecap: butt;
+    margin: 10;
+}
+
+.subtítulo-logo {
+    float: center;
+}
 
 /*CAMPO DE PESQUISA*/
 
@@ -86,22 +153,27 @@ img {
 }
 
 /*BARRA E COR DE FUNDO DOS MENUS*/
+
 .menu {
     background: #444;
 }
 
 /*MARGEM ENTRE A BARRA E O CONTEÚDO*/
-.menu ul li,
-.menu ul {
-    margin: 0;
+
+.menu ul li, .menu ul {
+    margin: 2;
     padding: 0;
     list-style: none;
 }
+
 /*MENUS NA HORIZONTAL*/
+
 .menu ul li {
     display: inline-block;
 }
+
 /*LAYOUT DOS MENUS*/
+
 .menu ul li a {
     display: block;
     color: #fff;
@@ -117,8 +189,7 @@ img {
     float: left;
 }
 
-.artigos,
-.artigos:before {
+.artigos, .artigos:before {
     width: 70%;
 }
 
@@ -138,8 +209,7 @@ img {
     float: right;
 }
 
-.barra-lateral,
-.barra-lateral:before {
+.barra-lateral, .barra-lateral:before {
     width: 30%;
 }
 
@@ -153,13 +223,11 @@ img {
     background: #f1f1f1;
 }
 
-
 /*ESPAÇAMENTOS*/
 
 .espacamento {
     padding: 20px;
 }
-
 
 /*RODAPÉ DO SITE*/
 
