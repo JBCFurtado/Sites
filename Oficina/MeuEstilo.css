@@ -92,7 +92,7 @@ img {
 
 /*CABEÇALHO DO SITE*/
 
-.principal {
+.base {
     width: 960px;
     color: #444;
     margin: 0 auto;
@@ -101,25 +101,26 @@ img {
 
 /*COMEÇO, MEIO E FIMDO SITE*/
 
-.cabecalho, .logo, .rodape, .menu {
+
+.cabeçalho, .logo, .menu, .rodapé{
     width: 100%;
     display: block;
     clear: both;
 }
 
-.cabecalho {
+.cabeçalho {
     height: 100px;
 }
 
 /*ALINHAMENTO DA LOGO DO SITE*/
 
-.logo-cabecalho {
+.logo_do_cabeçalho {
     float: left;
 }
 
 /*NOME DO SITE*/
 
-.logo-cabecalho a {
+.logo_do_cabeçalho a {
     font-size: 50px;
     text-decoration: none;
     color: #fff;
@@ -140,13 +141,13 @@ img {
     margin: 10;
 }
 
-.subtítulo-logo {
+.subtítulo_logo {
     float: center;
 }
 
 /*CAMPO DE PESQUISA*/
 
-.pesquisa {
+.campo_pesquisa {
     float: right;
     margin-top: 40px;
     margin-right: 10px;
@@ -180,20 +181,20 @@ img {
     padding: 13px 20px;
 }
 
-.corpo {
+.estrutura_base {
     position: relative;
     overflow: hidden;
 }
 
-.artigos {
+.posts {
     float: left;
 }
 
-.artigos, .artigos:before {
+.posts, .posts:before {
     width: 70%;
 }
 
-.artigos:before {
+.posts:before {
     position: absolute;
     top: 0;
     left: 0;
@@ -205,15 +206,15 @@ img {
 
 /*BARRAS LATERAIS*/
 
-.barra-lateral {
+.barra_direita {
     float: right;
 }
 
-.barra-lateral, .barra-lateral:before {
+.barra_direita, .barra_direita:before {
     width: 30%;
 }
 
-.barra-lateral:before {
+.barra_direita:before {
     content: '';
     position: absolute;
     top: 0;
@@ -225,13 +226,13 @@ img {
 
 /*ESPAÇAMENTOS*/
 
-.espacamento {
+.espaços {
     padding: 20px;
 }
 
 /*RODAPÉ DO SITE*/
 
-.rodape {
+.rodapé {
     padding: 30px;
     color: #fff;
     text-align: center;
